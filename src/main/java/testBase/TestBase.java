@@ -8,10 +8,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import reusableUtilities.ConfigPropExtractData;
+import reusableUtilities.ReusableMethods;
 
 
 
-public class TestBase {
+public class TestBase extends ReusableMethods{
 
 	// create an instance of BrowserFactoryClass 
 	BrowserFactory factory = new BrowserFactory();

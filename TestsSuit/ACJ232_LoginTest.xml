@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener
+			class-name="reusableUtilities.ListenersImplementation" />
+	</listeners>
+	<test name="ValidEmailValidPasswordTest">
+		<parameter name="email" value="teacher3@gmail.com"></parameter>
+		<parameter name="password" value="12345Abc"></parameter>
+		<parameter name="name" value="Teacher teacher3"></parameter>
+ 		<parameter name="wrongEmail" value="teacher333@gmail.com"></parameter>
+		<parameter name="wrongPassword" value="123456789Abc"></parameter>
+		<parameter name="expectedMessage" value="Authentication failed. User not found or password does not match"></parameter> 
+		<classes>
+			<class name="acj232_LoginTestsSet.ACJ235_LoginValidEmailAndPasswordTest" />
+			<class name="acj232_LoginTestsSet.ACJ236_InvalidEmailAndPasswordTest" />
+			<class name="acj232_LoginTestsSet.ACJ239_PasswordInBullets" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite --> 

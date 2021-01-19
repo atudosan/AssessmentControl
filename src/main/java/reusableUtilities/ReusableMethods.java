@@ -17,11 +17,20 @@ import com.aventstack.extentreports.Status;
 
 import testBase.DriverFactory;
 import testBase.ExtentFactory;
+import testBase.ObjectsRepository;
 
-public class ReusableMethods {
+public class ReusableMethods extends ObjectsRepository {
 
-	protected WebElement find(By locator) {
-		WebElement element = DriverFactory.getInstance().getDriver().findElement(locator);
+	protected WebElement find(By locator, String elementLog) {
+		WebElement element = null;
+		try {
+			element = DriverFactory.getInstance().getDriver().findElement(locator);
+			ExtentFactory.getInstance().getExtent().log(Status.INFO, "The webElement [" + elementLog + "] was found.");
+
+		} catch (Exception e) {
+			ExtentFactory.getInstance().getExtent().log(Status.FAIL,
+					"The webElement [" + elementLog + "] was not found.");
+		}
 		return element;
 	}
 
@@ -32,7 +41,7 @@ public class ReusableMethods {
 	protected void sendText(By locator, String elementLog, String text) {
 		try {
 			waitForElementToBeVisibile(locator, 10);
-			find(locator).sendKeys(text);
+			find(locator, elementLog).sendKeys(text);
 			ExtentFactory.getInstance().getExtent().log(Status.INFO,
 					"The text '" + text + "' was sent " + "to the [" + elementLog + "] text field");
 		} catch (Exception e) {
@@ -41,9 +50,21 @@ public class ReusableMethods {
 		}
 	}
 
+	protected void pressEnter(By locator, String elementLog) {
+		try {
+			waitForElementToBeVisibile(locator, 5);
+			find(locator, elementLog).sendKeys(Keys.ENTER);
+			ExtentFactory.getInstance().getExtent().log(Status.INFO, "Enter Key was pressed on [" + elementLog + "]");
+		} catch (Exception e) {
+			ExtentFactory.getInstance().getExtent().log(Status.FAIL,
+					"Enter Key was pressed on" + elementLog + "], due to Exception: " + e);
+		}
+
+	}
+
 	protected void selectCheckbox(By locator, String elementLog) {
-		if (!find(locator).isSelected()) {
-			find(locator).click();
+		if (!find(locator, elementLog).isSelected()) {
+			find(locator, elementLog).click();
 			ExtentFactory.getInstance().getExtent().log(Status.INFO, "select [" + elementLog + "] checkbox");
 		} else {
 			ExtentFactory.getInstance().getExtent().log(Status.INFO,
@@ -54,17 +75,17 @@ public class ReusableMethods {
 	protected void selectCheckboxByProvidedBooleanValue(By locator, String booleanValue, String elementLog) {
 		waitForElementToBeVisibile(locator, 10);
 		if (booleanValue.contains("true")) {
-			if (find(locator).isSelected()) {
+			if (find(locator, elementLog).isSelected()) {
 				ExtentFactory.getInstance().getExtent().log(Status.INFO,
 						"[" + elementLog + "] " + "checkbox was selected because the passed value was 'true'");
 			} else {
-				find(locator).click();
+				find(locator, elementLog).click();
 				ExtentFactory.getInstance().getExtent().log(Status.INFO,
 						"[" + elementLog + "] " + "checkbox was selected because the passed value was 'true'");
 			}
 		} else if (booleanValue.contains("false")) {
-			if (find(locator).isSelected()) {
-				find(locator).click();
+			if (find(locator, elementLog).isSelected()) {
+				find(locator, elementLog).click();
 				ExtentFactory.getInstance().getExtent().log(Status.INFO,
 						"[" + elementLog + "] " + "checkbox was unselected because the passed value was 'false'");
 			} else {
@@ -76,7 +97,7 @@ public class ReusableMethods {
 	}
 
 	private void pressKey(By locator, Keys key, String elementLog) {
-		find(locator).sendKeys(key);
+		find(locator, elementLog).sendKeys(key);
 		ExtentFactory.getInstance().getExtent().log(Status.INFO, "Pressed on " + elementLog + " key");
 
 	}
@@ -92,7 +113,7 @@ public class ReusableMethods {
 	protected void clickOn(By locator, String elementLog) {
 		try {
 			waitForElementToBeVisibile(locator, 10);
-			find(locator).submit();
+			find(locator, elementLog).submit();
 			ExtentFactory.getInstance().getExtent().log(Status.INFO,
 					"[" + elementLog + "] button was clicked successfully");
 		} catch (Exception e) {
@@ -101,16 +122,12 @@ public class ReusableMethods {
 		}
 	}
 
-	protected void click(By locator) {
-		find(locator).click();
-	}
-
 	protected void moveCursorToWebElement(By locator, String elementLog) {
 		try {
 			JavascriptExecutor executor = (JavascriptExecutor) DriverFactory.getInstance().getDriver();
-			executor.executeScript("arguments[0].scrollIntoView(true);", find(locator));
+			executor.executeScript("arguments[0].scrollIntoView(true);", find(locator, elementLog));
 			Actions actions = new Actions(DriverFactory.getInstance().getDriver());
-			actions.moveToElement(find(locator)).build().perform();
+			actions.moveToElement(find(locator, elementLog)).build().perform();
 			ExtentFactory.getInstance().getExtent().log(Status.INFO,
 					"Mouse is hover over [" + elementLog + "] successfully");
 		} catch (Exception e) {
@@ -121,7 +138,7 @@ public class ReusableMethods {
 
 	protected void clearText(By locator, String elementLog) {
 		try {
-			find(locator).clear();
+			find(locator, elementLog).clear();
 			Thread.sleep(250);
 			ExtentFactory.getInstance().getExtent().log(Status.INFO,
 					"Data from [" + elementLog + "] was cleared successfully");
@@ -134,7 +151,7 @@ public class ReusableMethods {
 	protected boolean isElementPresent(By locator, String elementLog) {
 		boolean presence = false;
 		try {
-			find(locator).isDisplayed();
+			find(locator, elementLog).isDisplayed();
 			ExtentFactory.getInstance().getExtent().log(Status.INFO, "The [" + elementLog + "] is present");
 			return presence;
 		} catch (Exception e) {
@@ -148,7 +165,7 @@ public class ReusableMethods {
 	protected void selectDropDownByVisibleText(By locator, String elementLog, String ddVisibleText) throws Throwable {
 		try {
 			waitForElementToBeVisibile(locator, 3);
-			WebElement elementLog_web = find(locator);
+			WebElement elementLog_web = find(locator, elementLog);
 			Select s = new Select(elementLog_web);
 			s.selectByVisibleText(ddVisibleText);
 			ExtentFactory.getInstance().getExtent().log(Status.INFO,
@@ -162,7 +179,7 @@ public class ReusableMethods {
 	// Select dropdown value value by value
 	protected void selectDropDownByValue(By locator, String elementLog, String ddValue) throws Throwable {
 		try {
-			Select s = new Select(find(locator));
+			Select s = new Select(find(locator, elementLog));
 			s.selectByValue(ddValue);
 			ExtentFactory.getInstance().getExtent().log(Status.INFO,
 					"Dropdown [" + elementLog + "] was Selected by its value: " + ddValue);
@@ -173,8 +190,7 @@ public class ReusableMethods {
 	}
 
 	// String Asserts
-	protected static void assertEqualsString(String expectedValue, String actualValue, String locatorName)
-			throws Throwable {
+	protected void assertEqualStrings(String expectedValue, String actualValue, String locatorName) throws Throwable {
 		try {
 			if (actualValue.equals(expectedValue)) {
 				ExtentFactory.getInstance().getExtent().log(Status.INFO,
@@ -190,15 +206,37 @@ public class ReusableMethods {
 		}
 	}
 
+	protected void assertElementPropertyHasDesiredValue(By locator, String elementLog, String property,
+			String expectedAttributeValue) throws Throwable {
+		try {
+			String attributeValue = find(locator, elementLog).getAttribute(property);
+			if (attributeValue.equals(expectedAttributeValue)) {
+				ExtentFactory.getInstance().getExtent().log(Status.INFO,
+						"Actual value of attribute [" + property + "]" + " is [" + attributeValue
+								+ "] and it is equal with Expected attribute " + "value [" + expectedAttributeValue
+								+ "]");
+			} else {
+				ExtentFactory.getInstance().getExtent().log(Status.INFO,
+						"Actual attribute value " + "[" + attributeValue
+								+ "] is not equal with Expected attribute value [" + expectedAttributeValue + "]");
+				Assert.assertTrue(false);
+			}
+		} catch (Exception e) {
+			Assert.assertTrue(false, e.toString());
+		}
+	}
+
 	protected void assertIfActualStringContainsExpectedString(String expectedValue, String actualValue,
 			String locatorName) throws Throwable {
 		try {
 			if (actualValue.contains(expectedValue)) {
-				ExtentFactory.getInstance().getExtent().log(Status.INFO, "String Assertion is successful on field "
-						+ locatorName + " Expected value was: " + expectedValue + " actual value is: " + actualValue);
+				ExtentFactory.getInstance().getExtent().log(Status.INFO,
+						"String Assertion is successful on field " + locatorName + "Expected value was: ["
+								+ expectedValue + "] actual value is: [" + actualValue + "]");
 			} else {
-				ExtentFactory.getInstance().getExtent().log(Status.FAIL, "String Assertion FAILED on field "
-						+ locatorName + " Expected value was: " + expectedValue + " actual value is: " + actualValue);
+				ExtentFactory.getInstance().getExtent().log(Status.FAIL,
+						"String Assertion FAILED on field " + locatorName + "Expected value was: [" + expectedValue
+								+ "] actual value is: [" + actualValue + "]");
 				Assert.assertTrue(false);
 			}
 		} catch (Exception e) {
@@ -210,7 +248,7 @@ public class ReusableMethods {
 	protected String getTextFromWebElement(By locator, String elementLog) {
 		String text = "";
 		try {
-			text = find(locator).getText().strip();
+			text = find(locator, elementLog).getText().strip();
 			ExtentFactory.getInstance().getExtent().log(Status.INFO,
 					"Retrived Text for " + elementLog + " is [" + text + "]");
 			return text;
@@ -288,18 +326,23 @@ public class ReusableMethods {
 	 * 
 	 * }
 	 */
-	private void waitForElementToBeVisibile(By locator, Integer timeOutInSeconds) {
+	protected void waitForElementToBeVisibile(By locator, Integer timeOutInSeconds) {
 		WebDriverWait wait = new WebDriverWait(DriverFactory.getInstance().getDriver(),
 				Duration.ofSeconds(timeOutInSeconds));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	}
-	
-	private void waitForElementToBeClicable(By locator, Integer timeOutInSeconds) {
+
+	protected void waitForElementToBeClicable(By locator, Integer timeOutInSeconds) {
 		WebDriverWait wait = new WebDriverWait(DriverFactory.getInstance().getDriver(),
 				Duration.ofSeconds(timeOutInSeconds));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	}
-	
-	
+
+	protected void waitUntilAttributeContainsValue(By locator, Integer timeOutInSeconds, String attribute,
+			String value) {
+		WebDriverWait wait = new WebDriverWait(DriverFactory.getInstance().getDriver(),
+				Duration.ofSeconds(timeOutInSeconds));
+		wait.until(ExpectedConditions.attributeContains(locator, attribute, value));
+	}
 
 }

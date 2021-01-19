@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="42" passed="31" failed="11" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-18T12:12:54 PST" name="Suite" finished-at="2021-01-18T12:17:21 PST" duration-ms="266901">
+    <groups>
+    </groups>
+    <test started-at="2021-01-18T12:12:54 PST" name="Test" finished-at="2021-01-18T12:17:21 PST" duration-ms="266901">
+      <class name="acj79_RegistrationFirstName.PositiveSignUpTests">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:12:54 PST" name="LaunchApplication" finished-at="2021-01-18T12:13:05 PST" duration-ms="10533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllPositiveScenariosForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:13:05 PST" name="validateAllPositiveScenariosForSignUpTest" data-provider="positiveLoginTestData" finished-at="2021-01-18T12:13:08 PST" duration-ms="3430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC ID=ACJ80, Email=ivan@test.com, Message=You have been Registered., Short Description=FirstName - Alphanumeric & special characters, Confirm Password=Abc123, First Name=Ivan123#$%, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllPositiveScenariosForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:13:08 PST" name="tearDown" finished-at="2021-01-18T12:13:08 PST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:13:08 PST" name="LaunchApplication" finished-at="2021-01-18T12:13:15 PST" duration-ms="7201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllPositiveScenariosForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:13:15 PST" name="validateAllPositiveScenariosForSignUpTest" data-provider="positiveLoginTestData" finished-at="2021-01-18T12:13:20 PST" duration-ms="4139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC ID=ACJ82, Email=ivan@test.com, Message=You have been Registered., Short Description=FirstName - Max (254 characters) when last name is 1 character, Confirm Password=Abc123, First Name=Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$ewwe, Group Code=123, Last Name=I, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllPositiveScenariosForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:13:20 PST" name="tearDown" finished-at="2021-01-18T12:13:20 PST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:13:20 PST" name="LaunchApplication" finished-at="2021-01-18T12:13:27 PST" duration-ms="7770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllPositiveScenariosForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:13:27 PST" name="validateAllPositiveScenariosForSignUpTest" data-provider="positiveLoginTestData" finished-at="2021-01-18T12:13:30 PST" duration-ms="3020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC ID=no such TC, Email=ivan@test.com, Message=You have been Registered., Short Description=FirstName - Min 1 character, Confirm Password=Abc123, First Name=I, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllPositiveScenariosForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:13:30 PST" name="tearDown" finished-at="2021-01-18T12:13:31 PST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:13:31 PST" name="LaunchApplication" finished-at="2021-01-18T12:13:38 PST" duration-ms="7471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllPositiveScenariosForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:13:38 PST" name="validateAllPositiveScenariosForSignUpTest" data-provider="positiveLoginTestData" finished-at="2021-01-18T12:13:41 PST" duration-ms="3068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC ID=no such TC, Email=ivan@test.com, Message=You have been Registered., Short Description=LastName - Alphanumeric & special characters, Confirm Password=Abc123, First Name=Ivan, Group Code=123, Last Name=Ivan@#45Ov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllPositiveScenariosForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:13:41 PST" name="tearDown" finished-at="2021-01-18T12:13:41 PST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:13:41 PST" name="LaunchApplication" finished-at="2021-01-18T12:13:48 PST" duration-ms="7157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllPositiveScenariosForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:13:48 PST" name="validateAllPositiveScenariosForSignUpTest" data-provider="positiveLoginTestData" finished-at="2021-01-18T12:13:52 PST" duration-ms="4059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC ID=no such TC, Email=ivan@test.com, Message=You have been Registered., Short Description=LastName - Max (254 characters) when first name is 1 character, Confirm Password=Abc123, First Name=I, Group Code=123, Last Name=Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$ew254, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllPositiveScenariosForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:13:52 PST" name="tearDown" finished-at="2021-01-18T12:13:53 PST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:13:53 PST" name="LaunchApplication" finished-at="2021-01-18T12:14:01 PST" duration-ms="8566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllPositiveScenariosForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:01 PST" name="validateAllPositiveScenariosForSignUpTest" data-provider="positiveLoginTestData" finished-at="2021-01-18T12:14:04 PST" duration-ms="2641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC ID=no such TC, Email=ivan@test.com, Message=You have been Registered., Short Description=LastName - Min 1 character, Confirm Password=Abc123, First Name=I, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllPositiveScenariosForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:04 PST" name="tearDown" finished-at="2021-01-18T12:14:04 PST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:04 PST" name="LaunchApplication" finished-at="2021-01-18T12:14:11 PST" duration-ms="7179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllPositiveScenariosForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:11 PST" name="validateAllPositiveScenariosForSignUpTest" data-provider="positiveLoginTestData" finished-at="2021-01-18T12:14:14 PST" duration-ms="3083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC ID=ACJ136, Email=iv87an@te78st.com, Message=You have been Registered., Short Description=Email - Alphanumeric characters and @ special char, Confirm Password=Abc123, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllPositiveScenariosForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:14 PST" name="tearDown" finished-at="2021-01-18T12:14:14 PST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:14 PST" name="LaunchApplication" finished-at="2021-01-18T12:14:21 PST" duration-ms="7136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllPositiveScenariosForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:21 PST" name="validateAllPositiveScenariosForSignUpTest" data-provider="positiveLoginTestData" finished-at="2021-01-18T12:14:26 PST" duration-ms="4918" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC ID=ACJ144, Email=bgdfkjbgdskjlbgdfskjlbgdsjkbgklskjbgskjbgjafdngdskjjfdkbgdskljbg@bgdfkjbgdskjlbgdfskjlbgdsjkbgklskjbgskjbgjafdngdskjjfdkbgdskljb.bgdfkjbgdskjlbgdfskjlbgdsjkbgklskjbgskjbgjafdngdskjjfdkbgdskljb, Message=You have been Registered., Short Description=Email - 64 char in front, 63 in middle, 63 in end, Confirm Password=Abc123, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at reusableUtilities.ReusableMethods.assertEqualStrings(ReusableMethods.java:202)
+at pageObjects.SignUpPageObject.validateSignUpPositiveScenarios(SignUpPageObject.java:61)
+at acj79_RegistrationFirstName.PositiveSignUpTests.validateAllPositiveScenariosForSignUpTest(PositiveSignUpTests.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllPositiveScenariosForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:27 PST" name="tearDown" finished-at="2021-01-18T12:14:27 PST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:27 PST" name="LaunchApplication" finished-at="2021-01-18T12:14:34 PST" duration-ms="7243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllPositiveScenariosForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:34 PST" name="validateAllPositiveScenariosForSignUpTest" data-provider="positiveLoginTestData" finished-at="2021-01-18T12:14:38 PST" duration-ms="4304" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC ID=no such TC, Email=ivan@test.com, Message=You have been Registered., Short Description=GroupCode - Alphanumeric & special characters, Confirm Password=Abc123, First Name=Ivan, Group Code=123AbC#$%, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at reusableUtilities.ReusableMethods.assertEqualStrings(ReusableMethods.java:202)
+at pageObjects.SignUpPageObject.validateSignUpPositiveScenarios(SignUpPageObject.java:61)
+at acj79_RegistrationFirstName.PositiveSignUpTests.validateAllPositiveScenariosForSignUpTest(PositiveSignUpTests.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllPositiveScenariosForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:39 PST" name="tearDown" finished-at="2021-01-18T12:14:39 PST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:39 PST" name="LaunchApplication" finished-at="2021-01-18T12:14:46 PST" duration-ms="7415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllPositiveScenariosForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:46 PST" name="validateAllPositiveScenariosForSignUpTest" data-provider="positiveLoginTestData" finished-at="2021-01-18T12:14:49 PST" duration-ms="2851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC ID=no such TC, Email=ivan@test.com, Message=You have been Registered., Short Description=GroupCode - Min (1 character), Confirm Password=Abc123, First Name=Ivan, Group Code=1, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllPositiveScenariosForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:49 PST" name="tearDown" finished-at="2021-01-18T12:14:49 PST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:49 PST" name="LaunchApplication" finished-at="2021-01-18T12:14:56 PST" duration-ms="7148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllPositiveScenariosForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:56 PST" name="validateAllPositiveScenariosForSignUpTest" data-provider="positiveLoginTestData" finished-at="2021-01-18T12:14:59 PST" duration-ms="2735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC ID=no such TC, Email=ivan@test.com, Message=You have been Registered., Short Description=GroupCode - Max (6 characters), Confirm Password=Abc123, First Name=Ivan, Group Code=123456, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllPositiveScenariosForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:59 PST" name="tearDown" finished-at="2021-01-18T12:14:59 PST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:14:59 PST" name="LaunchApplication" finished-at="2021-01-18T12:15:06 PST" duration-ms="7141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllPositiveScenariosForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:15:06 PST" name="validateAllPositiveScenariosForSignUpTest" data-provider="positiveLoginTestData" finished-at="2021-01-18T12:15:11 PST" duration-ms="4921" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC ID=ACJ138, Email=ivan@test.com, Message=You have been Registered., Short Description=Pasword - Allows alphanumeric and special characters, Confirm Password=Abc%&124, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Ab%&124}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at reusableUtilities.ReusableMethods.assertEqualStrings(ReusableMethods.java:202)
+at pageObjects.SignUpPageObject.validateSignUpPositiveScenarios(SignUpPageObject.java:61)
+at acj79_RegistrationFirstName.PositiveSignUpTests.validateAllPositiveScenariosForSignUpTest(PositiveSignUpTests.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllPositiveScenariosForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:15:12 PST" name="tearDown" finished-at="2021-01-18T12:15:12 PST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:15:12 PST" name="LaunchApplication" finished-at="2021-01-18T12:15:19 PST" duration-ms="7279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllPositiveScenariosForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:15:19 PST" name="validateAllPositiveScenariosForSignUpTest" data-provider="positiveLoginTestData" finished-at="2021-01-18T12:15:22 PST" duration-ms="2883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC ID=no such TC, Email=ivan@test.com, Message=You have been Registered., Short Description=Password - Minimum (5 characters), Confirm Password=Abc12, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc12}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllPositiveScenariosForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:15:22 PST" name="tearDown" finished-at="2021-01-18T12:15:22 PST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:15:22 PST" name="LaunchApplication" finished-at="2021-01-18T12:15:29 PST" duration-ms="7200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllPositiveScenariosForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:15:29 PST" name="validateAllPositiveScenariosForSignUpTest" data-provider="positiveLoginTestData" finished-at="2021-01-18T12:15:32 PST" duration-ms="3153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC ID=ACJ346, Email=ivan@test.com, Message=You have been Registered., Short Description=Password - Maximum (32 characters), Confirm Password=Abc1234567Abc1234567Abc1234567Ab, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc1234567Abc1234567Abc1234567Ab}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllPositiveScenariosForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:15:32 PST" name="tearDown" finished-at="2021-01-18T12:15:33 PST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:15:33 PST" name="LaunchApplication" finished-at="2021-01-18T12:15:40 PST" duration-ms="7174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllPositiveScenariosForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:15:40 PST" name="validateAllPositiveScenariosForSignUpTest" data-provider="positiveLoginTestData" finished-at="2021-01-18T12:15:43 PST" duration-ms="3009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC ID=no such TC, Email=ivan@test.com, Message=You have been Registered., Short Description=Password must match with Confirm password, Confirm Password=Abc123, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllPositiveScenariosForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.PositiveSignUpTests@5d1659ea]" started-at="2021-01-18T12:15:43 PST" name="tearDown" finished-at="2021-01-18T12:15:43 PST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- acj79_RegistrationFirstName.PositiveSignUpTests -->
+      <class name="acj79_RegistrationFirstName.NegativeSignUpTests">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:12:54 PST" name="LaunchApplication" finished-at="2021-01-18T12:13:05 PST" duration-ms="10854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:13:05 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:13:07 PST" duration-ms="1834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=First Name, TC ID=ACJ81, Email=ivan@test.com, Message=This field is required, Short Description=FirstName - This field is required, Confirm Password=Abc123, First Name=, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:13:07 PST" name="tearDown" finished-at="2021-01-18T12:13:07 PST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:13:07 PST" name="LaunchApplication" finished-at="2021-01-18T12:13:14 PST" duration-ms="7309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:13:14 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:13:20 PST" duration-ms="5839" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=First Name, TC ID=ACJ83, Email=ivan@test.com, Message=Too long. Should be no more than 254 characters, Short Description=FirstName - Max + 1 (255 characters) when last name is 1 character, Confirm Password=Abc123, First Name=Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$etc255, Group Code=123, Last Name=I, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at reusableUtilities.ReusableMethods.assertEqualStrings(ReusableMethods.java:202)
+at pageObjects.SignUpPageObject.validateErrorMessageText(SignUpPageObject.java:55)
+at acj79_RegistrationFirstName.NegativeSignUpTests.validateAllErrorMsgForSignUpTest(NegativeSignUpTests.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:13:21 PST" name="tearDown" finished-at="2021-01-18T12:13:21 PST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:13:21 PST" name="LaunchApplication" finished-at="2021-01-18T12:13:28 PST" duration-ms="7550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:13:28 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:13:30 PST" duration-ms="1551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=First Name, TC ID=no such TC, Email=ivan@test.com, Message=Whitespaces are not allowed, Short Description=FirstName -whitespaces not allowed, Confirm Password=Abc123, First Name=Iv an, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:13:30 PST" name="tearDown" finished-at="2021-01-18T12:13:30 PST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:13:30 PST" name="LaunchApplication" finished-at="2021-01-18T12:13:37 PST" duration-ms="7384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:13:37 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:13:39 PST" duration-ms="1598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Last Name, TC ID=no such TC, Email=ivan@test.com, Message=This field is required, Short Description=LastName - This field is required, Confirm Password=Abc123, First Name=Ivan, Group Code=123, Last Name=, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:13:39 PST" name="tearDown" finished-at="2021-01-18T12:13:39 PST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:13:39 PST" name="LaunchApplication" finished-at="2021-01-18T12:13:47 PST" duration-ms="7556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:13:47 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:13:52 PST" duration-ms="5559" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Last Name, TC ID=no such TC, Email=ivan@test.com, Message=Too long. Should be no more than 254 characters, Short Description=LastName - Max + 1 (255 characters) when last name is 1 character, Confirm Password=Abc123, First Name=I, Group Code=123, Last Name=Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$%Ivan123@$eww255, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at reusableUtilities.ReusableMethods.assertEqualStrings(ReusableMethods.java:202)
+at pageObjects.SignUpPageObject.validateErrorMessageText(SignUpPageObject.java:55)
+at acj79_RegistrationFirstName.NegativeSignUpTests.validateAllErrorMsgForSignUpTest(NegativeSignUpTests.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:13:53 PST" name="tearDown" finished-at="2021-01-18T12:13:53 PST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:13:53 PST" name="LaunchApplication" finished-at="2021-01-18T12:14:01 PST" duration-ms="8222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:01 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:14:02 PST" duration-ms="1327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Last Name, TC ID=no such TC, Email=ivan@test.com, Message=Whitespaces are not allowed, Short Description=LastName -whitespaces not allowed, Confirm Password=Abc123, First Name=Ivan, Group Code=123, Last Name=Iva nov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:02 PST" name="tearDown" finished-at="2021-01-18T12:14:02 PST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:02 PST" name="LaunchApplication" finished-at="2021-01-18T12:14:09 PST" duration-ms="7160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:09 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:14:11 PST" duration-ms="1339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Email, TC ID=ACJ425, Email=iv8%an@te7&st.com, Message=Should be a valid email address, Short Description=Email- Allowable characters: Alphanumeric char and @ including other special char, Confirm Password=Abc123, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:11 PST" name="tearDown" finished-at="2021-01-18T12:14:11 PST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:11 PST" name="LaunchApplication" finished-at="2021-01-18T12:14:18 PST" duration-ms="7398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:18 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:14:20 PST" duration-ms="1469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Email, TC ID=ACJ140, Email=, Message=This field is required, Short Description=Email - This field is required, Confirm Password=Abc123, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:20 PST" name="tearDown" finished-at="2021-01-18T12:14:20 PST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:20 PST" name="LaunchApplication" finished-at="2021-01-18T12:14:27 PST" duration-ms="6963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:27 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:14:29 PST" duration-ms="2227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Email, TC ID=ACJ422, Email=bgdfkjbgdskjlbgdfskjlbgdFsjkbgklskjbskjbg2s350jaUfdngdsShouldbe65@bgdfkjbgdskjlbgfskjlbgdsjkbgklskjbgskjbgPjafdngdskfdrShouldBe63.bgdfkjbgdskjlbgdfskjlbgdsjkbgklskjbgskjbgjafdngdkjjfdShouldBe63, Message=Should be a valid email address, Short Description=Email - 65 char in front, 63 in middle, 63 in end, Confirm Password=Abc123, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:29 PST" name="tearDown" finished-at="2021-01-18T12:14:29 PST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:29 PST" name="LaunchApplication" finished-at="2021-01-18T12:14:36 PST" duration-ms="7107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:36 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:14:38 PST" duration-ms="1936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Email, TC ID=ACJ423, Email=bgdfkjbgdskjlbgdfskjlbgdFsjkbgklskjbskjbg2s350jafdngdsShouldbe64@bgdfkjbgdskjlbgdfskjlbgdsjkbgklskjbgskjbgPjafdngdskfdrShouldBe64.bgdfkjbgdskjlbgdfskjlbgdsjkbgklskjbgskjbgjafdngdkjjfdShouldBe63, Message=Should be a valid email address, Short Description=Email - 64 char in front, 64 in middle, 63 in end, Confirm Password=Abc123, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:38 PST" name="tearDown" finished-at="2021-01-18T12:14:38 PST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:38 PST" name="LaunchApplication" finished-at="2021-01-18T12:14:46 PST" duration-ms="7575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:46 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:14:48 PST" duration-ms="2136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Email, TC ID=ACJ424, Email=bgdfkjbgdskjlbgdfskjlbgdsjkbgklskjbgskjbg2s350jafdngdsShouldbe64@bgdfkjbgdskjlbgdfskjlbgdsjkbgklskjbgskjbgjafdngdskfdrShouldBe63.bgdfkjbgdskjlbgdfskjlbgdsjkbgklskjbgskjbgjafdngdskjjfdShouldBe64, Message=Should be a valid email address, Short Description=Email - 64 char in front, 63 in middle, 64 in end, Confirm Password=Abc123, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:48 PST" name="tearDown" finished-at="2021-01-18T12:14:48 PST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:48 PST" name="LaunchApplication" finished-at="2021-01-18T12:14:55 PST" duration-ms="7390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:55 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:14:57 PST" duration-ms="1274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Email, TC ID=ACJ151, Email=ivan @test.com, Message=Should be a valid email address, Short Description=Email - no white spaces end of email, Confirm Password=Abc123, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:57 PST" name="tearDown" finished-at="2021-01-18T12:14:57 PST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:14:57 PST" name="LaunchApplication" finished-at="2021-01-18T12:15:04 PST" duration-ms="7392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:04 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:15:05 PST" duration-ms="1195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Email, TC ID=ACJ150, Email=iv an@test.com, Message=Should be a valid email address, Short Description=Email - no white spaces in middle of email, Confirm Password=Abc123, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:05 PST" name="tearDown" finished-at="2021-01-18T12:15:05 PST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:05 PST" name="LaunchApplication" finished-at="2021-01-18T12:15:13 PST" duration-ms="7223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:13 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:15:14 PST" duration-ms="1413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Email, TC ID=ACJ147, Email= ivan@test.com, Message=Should be a valid email address, Short Description=Email - no white spaces before email, Confirm Password=Abc123, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:14 PST" name="tearDown" finished-at="2021-01-18T12:15:14 PST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:14 PST" name="LaunchApplication" finished-at="2021-01-18T12:15:21 PST" duration-ms="7232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:21 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:15:23 PST" duration-ms="1337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Group Code, TC ID=no such TC, Email=ivan@test.com, Message=This field is required, Short Description=GroupCode - This field is required, Confirm Password=Abc123, First Name=Ivan, Group Code=, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:23 PST" name="tearDown" finished-at="2021-01-18T12:15:23 PST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:23 PST" name="LaunchApplication" finished-at="2021-01-18T12:15:30 PST" duration-ms="7116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:30 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:15:31 PST" duration-ms="1487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Group Code, TC ID=no such TC, Email=ivan@test.com, Message=Too long. Should be no more than 6 characters, Short Description=GroupCode - Max + 1 (7  characters), Confirm Password=Abc123, First Name=Ivan, Group Code=1234567, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:31 PST" name="tearDown" finished-at="2021-01-18T12:15:32 PST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:32 PST" name="LaunchApplication" finished-at="2021-01-18T12:15:39 PST" duration-ms="7257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:39 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:15:43 PST" duration-ms="4387" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Group Code, TC ID=no such TC, Email=ivan@test.com, Message=Whitespaces are not allowed, Short Description=GroupCode - Whitespace - Before, Confirm Password=Abc123, First Name=Ivan, Group Code= 123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at reusableUtilities.ReusableMethods.assertEqualStrings(ReusableMethods.java:202)
+at pageObjects.SignUpPageObject.validateErrorMessageText(SignUpPageObject.java:55)
+at acj79_RegistrationFirstName.NegativeSignUpTests.validateAllErrorMsgForSignUpTest(NegativeSignUpTests.java:27)
+at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:44 PST" name="tearDown" finished-at="2021-01-18T12:15:44 PST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:44 PST" name="LaunchApplication" finished-at="2021-01-18T12:15:51 PST" duration-ms="6847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:51 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:15:55 PST" duration-ms="3952" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Group Code, TC ID=no such TC, Email=ivan@test.com, Message=Whitespaces are not allowed, Short Description=GroupCode - Whitespace - Middle, Confirm Password=Abc123, First Name=Ivan, Group Code=12 3, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at reusableUtilities.ReusableMethods.assertEqualStrings(ReusableMethods.java:202)
+at pageObjects.SignUpPageObject.validateErrorMessageText(SignUpPageObject.java:55)
+at acj79_RegistrationFirstName.NegativeSignUpTests.validateAllErrorMsgForSignUpTest(NegativeSignUpTests.java:27)
+at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:55 PST" name="tearDown" finished-at="2021-01-18T12:15:55 PST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:15:55 PST" name="LaunchApplication" finished-at="2021-01-18T12:16:02 PST" duration-ms="6811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:02 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:16:06 PST" duration-ms="4191" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Group Code, TC ID=no such TC, Email=ivan@test.com, Message=Whitespaces are not allowed, Short Description=GroupCode - Whitespace - Middle, Confirm Password=Abc123, First Name=Ivan, Group Code=12 , Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at reusableUtilities.ReusableMethods.assertEqualStrings(ReusableMethods.java:202)
+at pageObjects.SignUpPageObject.validateErrorMessageText(SignUpPageObject.java:55)
+at acj79_RegistrationFirstName.NegativeSignUpTests.validateAllErrorMsgForSignUpTest(NegativeSignUpTests.java:27)
+at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:06 PST" name="tearDown" finished-at="2021-01-18T12:16:07 PST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:07 PST" name="LaunchApplication" finished-at="2021-01-18T12:16:13 PST" duration-ms="6902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:13 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:16:14 PST" duration-ms="932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Password, TC ID=ACJ139, Email=ivan@test.com, Message=This field is required, Short Description=Password - Field is required, Confirm Password=Abc123, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:14 PST" name="tearDown" finished-at="2021-01-18T12:16:14 PST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:14 PST" name="LaunchApplication" finished-at="2021-01-18T12:16:21 PST" duration-ms="6841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:21 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:16:22 PST" duration-ms="943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Password, TC ID=no such TC, Email=ivan@test.com, Message=This field is required, Short Description=Confirm Password Filed is required, Confirm Password=, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:22 PST" name="tearDown" finished-at="2021-01-18T12:16:22 PST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:22 PST" name="LaunchApplication" finished-at="2021-01-18T12:16:29 PST" duration-ms="6896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:29 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:16:31 PST" duration-ms="1367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Password, TC ID=ACJ141, Email=ivan@test.com, Message=Too short. Should be at least 5 characters, Short Description=Password - Minimum -1 (4 characters), Confirm Password=Abc1, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:31 PST" name="tearDown" finished-at="2021-01-18T12:16:31 PST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:31 PST" name="LaunchApplication" finished-at="2021-01-18T12:16:38 PST" duration-ms="6836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:38 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:16:42 PST" duration-ms="4093" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Password, TC ID=ACJ142, Email=ivan@test.com, Message=Too long. Should be no more than 32 characters, Short Description=Password - Maximum +1 (33 characters), Confirm Password=Abc1234567Abc1234567Abc1234567Abc, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc1234567Abc1234567Abc1234567Abc}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at reusableUtilities.ReusableMethods.assertEqualStrings(ReusableMethods.java:202)
+at pageObjects.SignUpPageObject.validateErrorMessageText(SignUpPageObject.java:55)
+at acj79_RegistrationFirstName.NegativeSignUpTests.validateAllErrorMsgForSignUpTest(NegativeSignUpTests.java:27)
+at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:42 PST" name="tearDown" finished-at="2021-01-18T12:16:42 PST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:42 PST" name="LaunchApplication" finished-at="2021-01-18T12:16:49 PST" duration-ms="6749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:49 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:16:53 PST" duration-ms="4263" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Password, TC ID=ACJ143, Email=ivan@test.com, Message=Whitespaces are not allowed, Short Description=Password - White spaces is not allowed, Confirm Password=Abc123, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at reusableUtilities.ReusableMethods.assertEqualStrings(ReusableMethods.java:202)
+at pageObjects.SignUpPageObject.validateErrorMessageText(SignUpPageObject.java:55)
+at acj79_RegistrationFirstName.NegativeSignUpTests.validateAllErrorMsgForSignUpTest(NegativeSignUpTests.java:27)
+at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:54 PST" name="tearDown" finished-at="2021-01-18T12:16:54 PST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:16:54 PST" name="LaunchApplication" finished-at="2021-01-18T12:17:01 PST" duration-ms="6966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:17:01 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:17:05 PST" duration-ms="3851" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Confirm Password, TC ID=ACJ145, Email=ivan@test.com, Message=Entered passwords should match, Short Description=Password doesn’t match with confirm password, Confirm Password=Abc123, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at reusableUtilities.ReusableMethods.assertEqualStrings(ReusableMethods.java:202)
+at pageObjects.SignUpPageObject.validateErrorMessageText(SignUpPageObject.java:55)
+at acj79_RegistrationFirstName.NegativeSignUpTests.validateAllErrorMsgForSignUpTest(NegativeSignUpTests.java:27)
+at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:17:05 PST" name="tearDown" finished-at="2021-01-18T12:17:05 PST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:17:05 PST" name="LaunchApplication" finished-at="2021-01-18T12:17:12 PST" duration-ms="6778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:17:12 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:17:13 PST" duration-ms="852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Confirm Password, TC ID=no such TC, Email=ivan@test.com, Message=Too short. Should be at least 5 characters, Short Description=Confirm Password - Minimum -1(4 characters), Confirm Password=Abc, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:17:13 PST" name="tearDown" finished-at="2021-01-18T12:17:13 PST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:17:13 PST" name="LaunchApplication" finished-at="2021-01-18T12:17:20 PST" duration-ms="6796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="validateAllErrorMsgForSignUpTest(java.lang.Object)[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:17:20 PST" name="validateAllErrorMsgForSignUpTest" data-provider="negativeLoginTestData" finished-at="2021-01-18T12:17:20 PST" duration-ms="924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Field=Confirm Password, TC ID=no such TC, Email=ivan@test.com, Message=Whitespaces are not allowed, Short Description=Confirm Password - White spaces is not allowed, Confirm Password=Abc 23, First Name=Ivan, Group Code=123, Last Name=Ivanov, Password=Abc124}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllErrorMsgForSignUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:acj79_RegistrationFirstName.NegativeSignUpTests@793138bd]" started-at="2021-01-18T12:17:20 PST" name="tearDown" finished-at="2021-01-18T12:17:21 PST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- acj79_RegistrationFirstName.NegativeSignUpTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

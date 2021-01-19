@@ -15,6 +15,7 @@ public class ExtentReportSetup {
 		
 	public static ExtentReports extentReportsSetUp() throws Exception {
 		SimpleDateFormat format = new SimpleDateFormat("dd-MM-yy HH-mm-ss");
+		System.out.println(format);
 		Date date = new Date();
 		String actualDate = format.format(date);
 		String reportPath = System.getProperty("user.dir")+"/Reports/ExecutionReport_"

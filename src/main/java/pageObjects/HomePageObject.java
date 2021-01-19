@@ -2,8 +2,8 @@ package pageObjects;
 
 import org.openqa.selenium.By;
 
-public class HomePageObject {
+public class HomePageObject extends RightSideMenuBar {
 	
-	By menu_quizzes = By.linkText("/#/quizzes");
+	
 
 }
