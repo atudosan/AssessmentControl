@@ -11,10 +11,16 @@ public class RightSideMenuBar extends TestBase {
 	By elementThatSwitchVisibility = By.xpath("//*[@class='info']//ancestor::mat-sidenav");
 	
 	public void clickOnMenuItem(String menu) {
+	System.out.println("Starting clickOnMenuItem method ");
 	String string_xpath = "//h5[text()='"+ menu +"']//ancestor::a";
-	By by_xpath = By.xpath(string_xpath);
-	String elementLog = menu+"LinkMenu";
-	clickOn(by_xpath, elementLog);
+	System.out.println("Built the xpath "+string_xpath);
+	By menu_xpath = By.xpath(string_xpath);
+	System.out.println("Stored that xpath in variable");
+	find(menu_xpath, "Quizzes Menu");
+	System.out.println("Quizzez menu was detected in DOM");
+	pressEnter(menu_xpath, "Quizzes Menu");
+	//clickOn(menu_xpath, menu);
+	
 	}
 	
 

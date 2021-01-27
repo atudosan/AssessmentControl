@@ -4,15 +4,34 @@
   <listeners>
     <listener class-name="reusableUtilities.ListenersImplementation"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" parallel="classes" name="ACJ163_50QuestionQuiz_PositiveTest(failed)">
+    <parameter name="password" value="12345Abc"/>
+    <parameter name="title" value="ABCD432108"/>
+    <parameter name="email" value="teacher3@gmail.com"/>
+    <parameter name="iterations" value="50"/>
     <classes>
-      <class name="acj79_RegistrationFirstName.NegativeSignUpTests">
+      <class name="acj160_QuizTotalQuestions.ACJ160_QuizTotalQuestions">
         <methods>
+          <include name="createQuizWithNNumberOfQuestions" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="validateAllErrorMsgForSignUpTest" invocation-numbers="1 4 12 16 17 18"/>
           <include name="LaunchApplication"/>
         </methods>
-      </class> <!-- acj79_RegistrationFirstName.NegativeSignUpTests -->
+      </class> <!-- acj160_QuizTotalQuestions.ACJ160_QuizTotalQuestions -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- ACJ163_50QuestionQuiz_PositiveTest(failed) -->
+  <test thread-count="5" parallel="classes" name="ACJ163_51QuestionQuiz_PositiveTest(failed)">
+    <parameter name="password" value="12345Abc"/>
+    <parameter name="title" value="ABCD432107"/>
+    <parameter name="email" value="teacher3@gmail.com"/>
+    <parameter name="iterations" value="51"/>
+    <classes>
+      <class name="acj160_QuizTotalQuestions.ACJ160_QuizTotalQuestions">
+        <methods>
+          <include name="createQuizWithNNumberOfQuestions" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- acj160_QuizTotalQuestions.ACJ160_QuizTotalQuestions -->
+    </classes>
+  </test> <!-- ACJ163_51QuestionQuiz_PositiveTest(failed) -->
 </suite> <!-- Failed suite [NegativeSignUpSuite] -->

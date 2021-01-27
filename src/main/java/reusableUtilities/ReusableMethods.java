@@ -40,7 +40,8 @@ public class ReusableMethods extends ObjectsRepository {
 
 	protected void sendText(By locator, String elementLog, String text) {
 		try {
-			waitForElementToBeVisibile(locator, 10);
+			waitForElementToBeVisibile(locator, 5);
+			find(locator, elementLog).clear();
 			find(locator, elementLog).sendKeys(text);
 			ExtentFactory.getInstance().getExtent().log(Status.INFO,
 					"The text '" + text + "' was sent " + "to the [" + elementLog + "] text field");
@@ -52,7 +53,7 @@ public class ReusableMethods extends ObjectsRepository {
 
 	protected void pressEnter(By locator, String elementLog) {
 		try {
-			waitForElementToBeVisibile(locator, 5);
+			waitForElementToBeVisibile(locator, 3);
 			find(locator, elementLog).sendKeys(Keys.ENTER);
 			ExtentFactory.getInstance().getExtent().log(Status.INFO, "Enter Key was pressed on [" + elementLog + "]");
 		} catch (Exception e) {

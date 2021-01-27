@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="NegativeSignUpSuite">
 	<listeners>
 		<listener
 			class-name="reusableUtilities.ListenersImplementation" />
 	</listeners>
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="tests.LoginTest" />
+			<class name="acj79_RegistrationFirstName.NegativeSignUpTests" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="acj79_RegistrationFirstName.RegisterMe">
+      <class name="acj160_QuizTotalQuestions.ACJ176_Max50Questions">
         <methods>
           <include name="tearDown"/>
-          <include name="fillOutRegistrationFormTest"/>
           <include name="LaunchApplication"/>
+          <include name="createAlphaNumericQuizTitle"/>
         </methods>
-      </class> <!-- acj79_RegistrationFirstName.RegisterMe -->
+      </class> <!-- acj160_QuizTotalQuestions.ACJ176_Max50Questions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
